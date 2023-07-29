@@ -28,4 +28,4 @@
 ---
 
 <h2 align="center">Layout 🎨</h2>
-  <p align="center">Você pode visualizar o layout do projeto atraves desse link  <a href="https://figma.com"> site🌐
+  <p>Você pode visualizar o layout do projeto atraves desse link  <a href="https://figma.com"> site🌐
