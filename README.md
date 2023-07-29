@@ -28,3 +28,4 @@
 ---
 
 <h2 align="center">Layout 🎨</h2>
+<a href="https://www.figma.com/file/yx7mLsKdqJTYEMAL1KUwWG/Pricing-Table-%E2%80%A2-Desafio-Discover-(Community)?node-id=0%3A1&mode=dev"
