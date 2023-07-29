@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-principal: #fff;
+  --color-number: #1e2338;
+  --color-card-button: #1d539e;
+  --color-box: #ffcc29;
+  --color-period-description: #828799;
+}
+
+/* Topo do site*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  height: 450px;
+  background-color: var(--color-card-button);
+}
+
+.title-one {
+  color: var(--color-principal);
+  font-size: 56px;
+  text-align: center;
+  margin-top: -92px;
+}
+.title-two {
+  color: var(--color-principal);
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Estilização dos cards */
+.aside {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  background: var(--color-principal);
+  width: 355px;
+  height: 470px;
+  padding: 30px;
+  margin-top: -103px;
+  list-style: none;
+}
+.card-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--color-principal);
+  width: 355px;
+  height: 490px;
+  margin-top: -117px;
+  list-style: none;
+}
+
+/* Informação dos cards */
+.info-plan {
+  display: flex;
+  flex: auto;
+  gap: 11px;
+}
+.iten-plan {
+  color: var(--color-period-description);
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+.description-plan {
+  color: var(--color-period-description);
+  font-size: 15px;
+}
+.info-card-one {
+  display: flex;
+  gap: 11px;
+}
+.info-card-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  background: var(--color-principal);
+  width: 355px;
+  height: 470px;
+  list-style: none;
+  padding: 0 30px;
+}
+.type-plan {
+  color: var(--color-number);
+  font-size: 21px;
+  font-weight: 600;
+}
+.value-plan {
+  display: flex;
+}
+.value {
+  color: var(--color-number);
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.zero {
+  color: var(--color-number);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.month {
+  color: var(--color-period-description);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.standard-card {
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+  margin-bottom: auto;
+  gap: 20px;
+}
+
+/* Estilização da caixa */
+.box {
+  display: flex;
+  justify-content: space-around;
+  gap: 117px;
+  width: 355px;
+  height: 100px;
+  border-radius: 8px 8px 0px 0px;
+  background: var(--color-box);
+  align-items: center;
+}
+.info-box {
+  color: var(--color-card-button);
+  font-size: 25px;
+  font-weight: 600;
+}
+.info-box2 {
+  color: var(--color-principal);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contour-box {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  background: var(--color-card-button);
+  height: 35px;
+  width: 96px;
+}
+
+/* Estilização dos bottons */
+.sign-plan {
+  width: 296px;
+  cursor: pointer;
+  padding: 12px 24px;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--color-card-button);
+  margin-top: auto;
+}
+.text-button {
+  color: var(--color-card-button);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sign-plan-two {
+  width: 296px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 24px;
+  justify-content: center;
+  background: var(--color-card-button);
+  margin-bottom: auto;
+}
+.text-button-two {
+  color: var(--color-principal);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
